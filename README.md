@@ -1,10 +1,5 @@
 # **Gazebo Vehicle Simulation Task**
 
-**Author:** [Your Name]
-**Date:** November 15, 2025
-
----
-
 #### **1. Project Objective**
 
 The primary objective of this task was to use the Gazebo simulation environment to control a vehicle autonomously and visualize its onboard sensor feed in real-time. The core requirements included launching a simulation, writing a ROS node for autonomous control, identifying the correct ROS topics, and displaying a live sensor data stream.
@@ -16,7 +11,7 @@ The primary objective of this task was to use the Gazebo simulation environment 
 **Tool Used:** The Construct (ROS Development Studio)
 
 **Reasoning for Tool Selection:**
-The project was developed on a macOS machine where previous attempts at a native ROS installation had failed. To meet the tight 1-hour deadline and mitigate risks associated with complex local setups (like Docker or native builds), a cloud-based robotics platform, **The Construct**, was chosen.
+The project was developed on a macOS machine where previous attempts at a native ROS installation had failed. To mitigate risks associated with complex local setups (like Docker or native builds), a cloud-based robotics platform, **The Construct**, was chosen.
 
 This strategic choice provided several key advantages:
 *   **Zero Installation:** It eliminated the need for any local installation of ROS, Gazebo, or their dependencies, saving critical time.
